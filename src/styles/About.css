@@ -1,0 +1,90 @@
+/* About hero section */
+
+.about-hero {
+  padding: 100px 7%;
+}
+
+.about-hero h1 {
+  font-family: 'Space Grotesk', sans-serif;
+  font-size: 56px;
+  line-height: 1.1;
+  font-weight: 600;
+  margin: 25px 0;
+}
+
+.about-intro {
+  max-width: 600px;
+  color: #777;
+  font-size: 16px;
+  line-height: 1.7;
+}
+
+/* approach section */
+
+.about-approach {
+  padding: 70px 7% 100px;
+  display: grid;
+  grid-template-columns: 1fr 1.2fr;
+  gap: 80px;
+}
+
+.approach-heading h2 {
+  font-family: 'Space Grotesk', sans-serif;
+  font-size: 38px;
+  line-height: 1.2;
+  margin-top: 25px;
+}
+
+.approach-principles > div {
+  padding: 25px 0;
+  border-top: 1px solid #deddd8;
+}
+
+.approach-principles > div:last-child {
+  border-bottom: 1px solid #deddd8;
+}
+
+.approach-principles span {
+  color: #e66b36;
+  font-size: 14px;
+}
+
+.approach-principles h3 {
+  font-family: 'Space Grotesk', sans-serif;
+  font-size: 22px;
+  margin: 12px 0 8px;
+}
+
+.approach-principles p {
+  color: #777;
+  line-height: 1.6;
+  margin: 0;
+  max-width: 450px;
+}
+
+
+
+
+
+
+@media (max-width: 600px) {
+  .about-hero {
+    padding: 75px 6%;
+  }
+
+  .about-hero h1 {
+    font-size: 42px;
+  }
+
+  .about-approach {
+    padding: 40px 6% 70px;
+    grid-template-columns: 1fr;
+    gap: 25px;
+  }
+
+  .approach-heading h2 {
+    font-size: 30px;
+  }
+}
+
+
